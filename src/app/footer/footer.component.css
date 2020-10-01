@@ -1,0 +1,73 @@
+:host{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+}
+
+.footer-main{
+    height: 15vh;
+    min-width:100%;
+    background-color: rgb(43, 43, 43);
+    margin:100px 0 0 0;
+    position: relative;
+    left:0;
+    right: 0;
+    bottom: 0;
+    color:rgb(109, 109, 109);
+    display :flex;
+    padding: 24px;;
+    
+}
+
+.footer-main .left, .footer-main .right{
+    width:40%;
+}
+
+.footer-main .left .header{
+    display:block;
+    font-size: 16px;
+    
+    
+}
+
+.footer-main .right .header{
+    display:block;
+    font-size: 16px;
+    
+    
+}
+.footer-main .right .text{
+    display:block;
+    font-size: 18px;
+    margin-top:8px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-main .left .phno, .footer-main .left .email{
+    margin-top:8px;
+    display:block;
+    font-size:18px;
+    color:#ffffff;
+    cursor: pointer;
+    
+
+}
+.copyright{
+    background-color: #1f1f1f;
+    color:#c7c7c7;
+    padding:8px;
+    width:100%
+}
+
+.footer-main .left .phno:hover,a:hover{
+    color:#a5a3a3
+}

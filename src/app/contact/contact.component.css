@@ -1,0 +1,75 @@
+:host{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+}
+
+.contact{
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top:100px;
+}
+
+.contact-header{
+    padding:4px;
+    border:2px solid #000;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+
+.contact-text{
+    display: flex;
+    margin-top:30px;
+}
+
+.contact1,.contact2{
+    width:48%;
+    padding: 16px;
+}
+
+.contact1{
+    margin-top:20px;
+    font-size: 20px;
+}
+
+.contact2 .head-text{
+    font-size: 24px;
+    color: rgb(180, 180, 180);
+    border-bottom: 2px solid #000;
+}
+.contact2 .phno,.contact2 .email{
+    font-size: 28px;
+    font-weight: 500;
+    display: block;
+    margin-top:8px;
+}
+.contact2 .header{
+    font-size: 32px;
+    color: rgb(139, 139, 139);
+    margin-top:12px;
+}
+
+.contact-spacer{
+    margin-top:40px;
+    flex:1;
+    border-right: 2px solid #000;
+}
+
+.contact .email-btn a{
+    text-decoration: none;
+    color:#fff;
+}
+.contact .email-btn{
+    padding: 16px 24px 16px 24px;
+    background-color: rgb(0, 0, 0);
+    width:25%;
+    border-radius: 36px;
+    text-align: center;
+    font-size: 24px;
+    margin-top:24px;
+}

@@ -67,21 +67,21 @@
   .small-menu{
     display: none;
     height: 0px;
-    transition: 1s ease-in-out;
   }
 
   .enlarge-menu{
     display:none;
-    transition: 1s ease-in-out;
+    width:100%;
  
   }
 
   .navbar-small{
-    margin-top:64px;
+    margin:64px 0 0 0;
     margin-left:0;
     text-align: center;
     align-items: center;
     align-content: center;
+    width:100%;
   
     
   }
@@ -93,13 +93,21 @@
     font-weight: 600;
     background: rgb(226, 226, 226);
     border-bottom: 0.5px solid;
+    width:100%;
   }
 
   .navbar-small li:hover{
     background: rgb(240, 240, 240);
   }
 
-
+  .navbar-small ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 
 
 
