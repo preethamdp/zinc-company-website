@@ -7,10 +7,11 @@
     <span><h2>Company name</h2></span>
       <div class="spacer"></div>
       <ul class = "navbar">
-        <li>Profile</li>
-        <li>Services</li>
-        <li>Work</li>
-        <li>Contact</li>
+       
+        <li [routerLink]='"."' fragment="profile">Profile</li>
+        <li [routerLink]='"."' fragment="services">Services</li>
+        <li [routerLink]='"."' fragment="work">Work</li>
+        <li [routerLink]='"."' fragment="contact">Contact</li>
       </ul>
       <img class="menu-btn" 
       src="../assets/menu.png" 
@@ -21,10 +22,10 @@
   <div [class] = "[className]">
     <div class="navbar-small">
       <ul>
-      <li>Profile</li>
-      <li>Services</li>
-      <li>Work</li>
-      <li>Contact</li>
+        <li [routerLink]='"."' fragment="profile">Profile</li>
+        <li [routerLink]='"."' fragment="services">Services</li>
+        <li [routerLink]='"."' fragment="work">Work</li>
+        <li [routerLink]='"."' fragment="contact">Contact</li>
     </ul>
   </div>
   </div>

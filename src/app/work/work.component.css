@@ -8,49 +8,35 @@
    
 }
 
-.services{
+.work{
     margin-left: 150px;
     margin-right: 100px;
     margin-top:100px;
 }
 
-.services-header{
+.work-header{
     padding:4px;
     border:2px solid #000;
     border-radius: 8px;
     font-size: 20px;
 
 }
-
-.service-list{
-    margin-top:40px;
-    display: flex;
-    flex-wrap: wrap;
+.work-body img{
+    width: 50%;
 }
-.service1,.service2{
-    width:47%;
-    background-color: rgb(221, 221, 221);
-    padding:0 24px 32px 24px;
-    border-radius: 8px;
-    font-size: 28px;;
-}
-
-.service-spacer{
-    flex:1;
-}
-@media screen and (max-width : 1900px){
-    .service1,.service2{
-        width: 100%;
-        margin-top:8px;
-    }
+.work-body{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 16px;
+    width:90%
 }
 
 @media screen and (max-width : 1000px){
-    .services {
+    .work {
         margin :5%
     }
-    .service1,.service2{
+    .work-body{
         width: 100%;
-        margin-top:8px;
+        font-size: 24px;
     }
 }

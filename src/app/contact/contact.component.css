@@ -19,6 +19,7 @@
     border:2px solid #000;
     border-radius: 8px;
     font-size: 20px;
+    width: 100%;
 
 }
 
@@ -34,7 +35,7 @@
 
 .contact1{
     margin-top:20px;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 .contact2 .head-text{
@@ -72,4 +73,26 @@
     text-align: center;
     font-size: 24px;
     margin-top:24px;
+}
+
+@media screen and (max-width : 1000px){
+    .contact {
+        margin :5%;
+        width:90%;
+        
+    }
+  .contact-text{
+      display: block;
+
+  }
+ .contact1,.contact2{
+     margin:8px;
+        width:80%;
+        margin:0;
+        display: block;
+        font-size: 20px;
+    }
+    .contact .email-btn{
+        width:60%;
+    }
 }

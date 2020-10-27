@@ -13,6 +13,9 @@ import { PurposeComponent } from './purpose/purpose.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule, Router } from '@angular/router';
+import { WorkComponent } from './work/work.component';
+import { RedirectComponent } from './redirect/redirect.component';
 
 
 @NgModule({
@@ -24,11 +27,14 @@ import { FooterComponent } from './footer/footer.component';
     ServicesComponent,
     ContactComponent,
     FooterComponent,
+    WorkComponent,
+    RedirectComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -23,7 +23,18 @@
 }
 
 .purpose-text{
-    font-size: larger;
+    font-size: 32px;
+    font-weight: 600;
     margin-top: 16px;
-    width:60%
+    width:90%
+}
+
+@media screen and (max-width : 1000px){
+    .purpose {
+        margin :5%
+    }
+    .purpose-text{
+        width: 100%;
+        font-size: 24px;
+    }
 }
